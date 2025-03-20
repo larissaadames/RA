@@ -42,4 +42,23 @@
 
 
 #ex4
-nota1 = (input('Qual a sua nota 1? '))
+# nota1 = float((input('Qual a sua nota 1? ')))
+# nota2 = float((input('Qual a sua nota 2? ')))
+# nota3 = float((input('Qual a sua nota 3? ')))
+# nota4 = float((input('Qual a sua nota 4? ')))
+
+# media = ((nota1 + nota2 + nota3 + nota4) / 4)
+# print('A sua média é: '+ str(media))
+
+#ex5 
+
+# idade = int(input('Insira a sua idade: '))
+# idadeMeses = (idade * 12)
+
+# print("A sua idade em meses é: " + str(idadeMeses))
+
+# #ex6 
+# venda = float(input('Qual o valor do produto?'))
+# kilo = float(input('Qual o kilo do produto?'))
+# valorFinal = (kilo * venda)
+# print( "O valor final é: " + str(valorFinal))
