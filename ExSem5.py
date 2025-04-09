@@ -37,20 +37,20 @@
 
 
 
-print("Você está em uma floresta e precisa escolher um caminho! \n O caminho da esquerda tem um rio, e o da direita tem uma montanha")
-caminho = input("Qual caminho você escolhe? Esquerda ou Direita? ").lower().strip()
-if caminho == "esquerda":
-    print("Você encontrou um rio!")
-    atravessar = input("Você decide atravessar o rio? (responda com sim e nao) ").lower().strip()
-    if  atravessar == "sim":
-        print("Você atravessou o rio e encontrou uma clareira na floresta com vários animais legais!")
-    elif atravessar == "nao":
-        print("Você ficou parado(a) na borda do rio e viu vários cardumes de peixinhos!")
+# print("Você está em uma floresta e precisa escolher um caminho! \n O caminho da esquerda tem um rio, e o da direita tem uma montanha")
+# caminho = input("Qual caminho você escolhe? Esquerda ou Direita? ").lower().strip()
+# if caminho == "esquerda":
+#     print("Você encontrou um rio!")
+#     atravessar = input("Você decide atravessar o rio? (responda com sim e nao) ").lower().strip()
+#     if  atravessar == "sim":
+#         print("Você atravessou o rio e encontrou uma clareira na floresta com vários animais legais!")
+#     elif atravessar == "nao":
+#         print("Você ficou parado(a) na borda do rio e viu vários cardumes de peixinhos!")
 
-elif caminho == "direita":
-    print("Você encontrou uma montanha nevada!")
-    subir = input("deseja subir? (responda com sim e nao) ").lower().strip()
-    if subir == "sim":
-        input("Você subiu e encontrou uma cabana com um casal idoso, e a senhora do casal te chamou para tomar sopa!")
-    elif subir == "nao":
-        print("Você ficou olhando a montanha e viu um lindo pôr do sol")
+# elif caminho == "direita":
+#     print("Você encontrou uma montanha nevada!")
+#     subir = input("deseja subir? (responda com sim e nao) ").lower().strip()
+#     if subir == "sim":
+#         input("Você subiu e encontrou uma cabana com um casal idoso, e a senhora do casal te chamou para tomar sopa!")
+#     elif subir == "nao":
+#         print("Você ficou olhando a montanha e viu um lindo pôr do sol")
