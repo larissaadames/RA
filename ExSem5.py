@@ -31,17 +31,16 @@
 # Crie um programa em Python que simule essa situação e apresente o resultado final.
 
 
-# print("Você está em uma floresta e precisa escolher um caminho! \n O caminho da esquerda tem um rio, e o da direita tem uma montanha")
-# caminho = input("qual caminho você escolhe?").lower().strip()
+print("Você está em uma floresta e precisa escolher um caminho! \n O caminho da esquerda tem um rio, e o da direita tem uma montanha")
+caminho = input("qual caminho você escolhe?").lower().strip()
 
-# if caminho == "esquerda":
-#     print("rio")
-#     # input("sfjhkasd").lower
-#     # if sim:
-#     #     print("fds")
-# elif caminho == "direita":
-#     print("montanha subir?")
-#     # if subir == 1:
-#     #     print("pena q fds")
-#     # else:
-#     #     print("aaaaa")
+if caminho == "esquerda":
+    print("rio")
+    if  atravessar == sim:
+        atravessar = input("voce decide atravessar o rio?")
+    else:
+        print("blablabla")
+elif caminho == "direita":
+    print("montanha subir?")
+    if subir == "sim":
+        input("aaaaaaaa")
