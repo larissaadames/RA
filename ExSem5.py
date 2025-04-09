@@ -1,31 +1,31 @@
-print("Seja bem-vindo!!")
-print(" 1. Soma \n 2. Subtração \n 3. Divisão \n 4. Multiplicação \n 5. Sair")
+# print("Seja bem-vindo!!")
+# print(" 1. Soma \n 2. Subtração \n 3. Divisão \n 4. Multiplicação \n 5. Sair")
 
-opcao = int(input("Escolha uma opção! "))
+# opcao = int(input("Escolha uma opção! "))
 
 
-if opcao == 5 :
-    print("Até a próxima!")
+# if opcao == 5 :
+#     print("Até a próxima!")
 
-elif opcao >=1 and opcao <= 5: 
+# elif opcao >=1 and opcao <= 5: 
 
-    valorA = int(input("Insira o primeiro valor: "))
-    valorB = int(input("Insira o segundo valor: "))
+#     valorA = int(input("Insira o primeiro valor: "))
+#     valorB = int(input("Insira o segundo valor: "))
 
-else:
-    print("opcao invalida")
+# else:
+#     print("opcao invalida")
 
-if opcao == 1:
-    resul1 = valorA + valorB
-    print(resul1)
-elif opcao == 2:
-    result2 = valorA - valorB 
-    print(result2)
-elif opcao == 3:
-    result3 = valorA / valorB
-    print(result3)
-elif opcao == 4:
-    result4 = valorA * valorB
+# if opcao == 1:
+#     resul1 = valorA + valorB
+#     print(resul1)
+# elif opcao == 2:
+#     result2 = valorA - valorB 
+#     print(result2)
+# elif opcao == 3:
+#     result3 = valorA / valorB
+#     print(result3)
+# elif opcao == 4:
+#     result4 = valorA * valorB
 
 
 
@@ -37,20 +37,20 @@ elif opcao == 4:
 
 
 
-# print("Você está em uma floresta e precisa escolher um caminho! \n O caminho da esquerda tem um rio, e o da direita tem uma montanha")
-# caminho = input("Qual caminho você escolhe? Esquerda ou Direita? ").lower().strip()
-# if caminho == "esquerda":
-#     print("Você encontrou um rio!")
-#     atravessar = input("Você decide atravessar o rio? (responda com sim e nao) ").lower().strip()
-#     if  atravessar == "sim":
-#         print("Você atravessou o rio e encontrou uma clareira na floresta com vários animais legais!")
-#     elif atravessar == "nao":
-#         print("Você ficou parado(a) na borda do rio e viu vários cardumes de peixinhos!")
+print("Você está em uma floresta e precisa escolher um caminho! \n O caminho da esquerda tem um rio, e o da direita tem uma montanha")
+caminho = input("Qual caminho você escolhe? Esquerda ou Direita? ").lower().strip()
+if caminho == "esquerda":
+    print("Você encontrou um rio!")
+    atravessar = input("Você decide atravessar o rio? (responda com sim e nao) ").lower().strip()
+    if  atravessar == "sim":
+        print("Você atravessou o rio e encontrou uma clareira na floresta com vários animais legais!")
+    elif atravessar == "nao":
+        print("Você ficou parado(a) na borda do rio e viu vários cardumes de peixinhos!")
 
-# elif caminho == "direita":
-#     print("Você encontrou uma montanha nevada!")
-#     subir = input("deseja subir? (responda com sim e nao) ").lower().strip()
-#     if subir == "sim":
-#         input("Você subiu e encontrou uma cabana com um casal idoso, e a senhora do casal te chamou para tomar sopa!")
-#     elif subir == "nao":
-#         print("Você ficou olhando a montanha e viu um lindo pôr do sol")
+elif caminho == "direita":
+    print("Você encontrou uma montanha nevada!")
+    subir = input("deseja subir? (responda com sim e nao) ").lower().strip()
+    if subir == "sim":
+        input("Você subiu e encontrou uma cabana com um casal idoso, e a senhora do casal te chamou para tomar sopa!")
+    elif subir == "nao":
+        print("Você ficou olhando a montanha e viu um lindo pôr do sol")
