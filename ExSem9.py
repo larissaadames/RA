@@ -1,11 +1,11 @@
-megaSena = ["1","2","3","4","5"]
-aposta = input("Quais números que vc quer apostar? ") 
-apostaArray = list(aposta)
+# megaSena = ["1","2","3","4","5"]
+# aposta = input("Quais números que vc quer apostar? ") 
+# apostaArray = list(aposta)
 
-if megaSena == apostaArray:
-    print("VC GANHOU!!")
-else:
-    print("nao foi dessa vez amigo :/")
+# if megaSena == apostaArray:
+#     print("VC GANHOU!!")
+# else:
+#     print("nao foi dessa vez amigo :/")
 
 # #1.
 # a = [1, 0, 5, -2, -5, 7]
