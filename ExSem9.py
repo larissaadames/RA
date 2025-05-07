@@ -85,19 +85,22 @@
 #6.
 num = 0
 i = 0
-
-vetor = []
+vetor = [0]*10
 
 while i < 10: 
-    num = int(input(f"{i+1}:"))
+    num = int(input(f"Digite o {i+1}º:"))
     vetor[i] = num
     i += 1
 
 maior = vetor[0]
 menor = vetor[0]
+i = 1
 
 while i < 10:
-    if num > maior:
-        maior = num 
+    if vetor[i] > maior:
+        maior = vetor[i]
+    if vetor[i] < menor:
+        menor = vetor[i]
     i += 1
 print(f"maior: {maior}")
+print(f"menor: {menor}")
