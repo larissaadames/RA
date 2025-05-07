@@ -83,24 +83,156 @@
 # print(pares)
 
 #6.
-num = 0
-i = 0
-vetor = [0]*10
+# num = 0
+# i = 0
+# vetor = [0]*10
 
-while i < 10: 
-    num = int(input(f"Digite o {i+1}º:"))
-    vetor[i] = num
+# while i < 10: 
+#     num = int(input(f"Digite o {i+1}º:"))
+#     vetor[i] = num
+#     i += 1
+
+# maior = vetor[0]
+# menor = vetor[0]
+# i = 1
+
+# while i < 10:
+#     if vetor[i] > maior:
+#         maior = vetor[i]
+#     if vetor[i] < menor:
+#         menor = vetor[i]
+#     i += 1
+# print(f"maior: {maior}")
+# print(f"menor: {menor}"):
+
+#7
+# num = 0
+# i = 0
+# vetor = [0]*10
+
+# while i < 10: 
+#     num = int(input(f"Digite o {i+1}º:"))
+#     vetor[i] = num
+#     i += 1
+
+# maior = vetor[0]
+# posicao = 0
+# i = 1
+
+# while i < 10:
+#     if vetor[i] > maior:
+#         maior = vetor[i]
+#         posicao = i
+#     i += 1
+# print("vetor", vetor)
+# print(f"maior: {maior}")
+# print(f"posicao: {posicao}")
+
+# #8
+# notas = [0] * 15
+# i = 0
+
+# while i < 15:
+#     nota = int(input(f"Digite a nota do {i + 1}º aluno: "))
+#     notas[i] = nota
+#     i += 1
+
+# soma = 0
+# i = 0
+# while i < 15:
+#     soma += notas[i]
+#     i += 1
+
+# media = soma / 15
+
+
+# print("\nNotas dos alunos:", notas)
+# print(f"Média geral da turma: {media:.2f}")
+#.2f para formatar
+
+#9
+# vetor = [0] * 10
+# i = 0
+
+# while i < 10:
+#     numero = int(input(f"Digite o {i + 1}º número: "))
+#     vetor[i] = numero
+#     i += 1
+
+
+# nega = 0
+# posi = 0
+
+
+# i = 0
+# while i < 10:
+#     if vetor[i] < 0:
+#         nega += 1
+#     elif vetor[i] > 0:
+#         posi += vetor[i]
+#     i += 1
+
+# print("vetor :", vetor)
+# print(f"números negativos: {nega}")
+# print(f"Soma números positivos: {posi:.2f}")
+
+#10
+# valores = [0] * 5
+# i = 0
+
+# while i < 5:
+#     numero = int(input(f"Digite o {i + 1}º valor: "))
+#     valores[i] = numero
+#     i += 1
+
+# maior = valores[0]
+# menor = valores[0]
+# soma = valores[0]
+
+# i = 1
+# while i < 5:
+#     if valores[i] > maior:
+#         maior = valores[i]
+#     if valores[i] < menor:
+#         menor = valores[i]
+#     soma += valores[i]
+#     i += 1
+
+# media = soma / 5
+
+# print("\nValores lidos:", valores)
+# print(f"Maior valor: {maior}")
+# print(f"Menor valor: {menor}")
+# print(f"Média dos valores: {media:.2f}")
+
+#11
+
+valores = [0] * 5
+i = 0
+
+while i < 5:
+    numero = int(input(f"Digite o {i + 1}º valor: "))
+    valores[i] = numero
     i += 1
 
-maior = vetor[0]
-menor = vetor[0]
+maior = valores[0]
+posMaior= 0
+
+menor = valores[0]
+posMenor = 0
 i = 1
 
-while i < 10:
-    if vetor[i] > maior:
-        maior = vetor[i]
-    if vetor[i] < menor:
-        menor = vetor[i]
+
+while i < 5:
+    if valores[i] > maior:
+        maior = valores[i]
+        posMaior = i
+    if valores[i] < menor:
+        menor = valores[i]
+        posMenor = i
     i += 1
-print(f"maior: {maior}")
-print(f"menor: {menor}")
+
+# Mostra os resultados
+print("\nValores digitados:", valores)
+print(f"Maior valor: {maior} na posição {posMaior}")
+print(f"Menor valor: {menor} na posição {posMenor}")
