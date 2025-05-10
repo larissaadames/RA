@@ -1,3 +1,5 @@
+#---------------coisas da aula-----------------------
+
 # for contador in range(11):
 #     if contador %2 != 0:
 #         print(f"[{contador}] é impar")
@@ -9,7 +11,19 @@
 # for i in range(5):
 #     print(letras[i])
 
-letras = ["p", "r", "o", "f", "e"]
+# letras = ["p", "r", "o", "f", "e"]
 
-for i in letras:
-    print(i)
+# for i in letras:
+#     print(i)
+#--------------------------------------
+
+#Ex 1
+
+# for i in range(51):
+#     print(i)
+
+#Ex 2
+
+for i in range(1, 101):
+    if i %2 == 0:
+        print(f"{i} é impar")
