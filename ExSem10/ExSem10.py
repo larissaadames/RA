@@ -80,13 +80,7 @@
 #Ex 7 
 
 #Jeitos legais de fazer:
-soma = 0
 
-for i in range(51):
-    numero_par = i * 2
-    soma += numero_par
-
-print("A soma dos 50 primeiros números pares é:", soma)
 
 
 # soma = 0 
@@ -95,3 +89,18 @@ print("A soma dos 50 primeiros números pares é:", soma)
 #     if num %2 == 0:
 #         soma += num 
 # print(soma)
+
+# soma = 0
+
+# for i in range(51):
+#     numero_par = i * 2
+#     soma += numero_par
+
+# print("A soma dos 50 primeiros números pares é:", soma)
+
+#Ex 6
+
+# AINDA NAO SEI
+
+#Ex 7 
+
