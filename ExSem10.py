@@ -24,6 +24,16 @@
 
 #Ex 2
 
-for i in range(1, 101):
-    if i %2 == 0:
-        print(f"{i} é impar")
+# for i in range(1, 101):
+#     if i %2 == 0:
+#         print(f"{i} é impar")
+
+#Ex 3
+tab = int(input("A tabuada de que número vc quer? "))
+
+if 1<= tab <= 10:
+
+    for i in range(1, 11):
+        print(f"{tab} X {i} = {tab * i}")
+else:
+    print("Digite um número válido")
