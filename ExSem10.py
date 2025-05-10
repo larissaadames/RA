@@ -65,13 +65,15 @@
 # print(f"Sao {impares} nums impares")
 
 #Ex 6
-dentro = 0
-fora = 0
-for i in range (11):
-    num = int(input("ASKMDKMDFLKM"))
-    if 10 >=  num <= 20:
-        dentro =+ 1
-    else:
-        fora =+ 1
-print("fora: ",fora)
-print("dentro: ", dentro)
+
+# dentro = 0
+# fora = 0
+# for i in range (11):
+#     num = int(input("numero: "))
+#     if 10 <=  num <= 20:
+#         dentro += 1
+#     else:
+#         fora += 1
+# print("fora: ",fora)
+# print("dentro: ", dentro)
+
