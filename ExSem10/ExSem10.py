@@ -77,3 +77,21 @@
 # print("fora: ",fora)
 # print("dentro: ", dentro)
 
+#Ex 7 
+
+#Jeitos legais de fazer:
+soma = 0
+
+for i in range(51):
+    numero_par = i * 2
+    soma += numero_par
+
+print("A soma dos 50 primeiros números pares é:", soma)
+
+
+# soma = 0 
+# for i in range (51):
+#     num = int(input("nums: "))
+#     if num %2 == 0:
+#         soma += num 
+# print(soma)
