@@ -98,9 +98,107 @@
 
 # print("A soma dos 50 primeiros números pares é:", soma)
 
-#Ex 6
 
-# AINDA NAO SEI
+#Ex 8
 
-#Ex 7 
+# # Lista vazia para armazenar os 10 números
+# valores = []
 
+# # Leitura dos 10 números
+# for i in range(10):
+#     numero = int(input(f"Digite o {i + 1}º número: "))
+#     valores.append(numero)
+
+# # Bubble Sort para ordenar em ordem crescente
+# n = len(valores)
+# for i in range(n):
+#     for j in range(0, n - i - 1):
+#         if valores[j] > valores[j + 1]:
+#             # Troca os elementos
+#             valores[j], valores[j + 1] = valores[j + 1], valores[j]
+
+# # Imprime a lista ordenada
+# print("Números em ordem crescente:")
+# for numero in valores:
+#     print(numero)
+
+#Ex 9
+# # Solicita o texto ao usuário
+# texto = input("Digite um texto qualquer: ").lower().strip()
+
+# # Lista de vogais normais e acentuadas
+# todas_vogais = {
+#     'a': 0, 'á': 0,
+#     'e': 0, 'é': 0,
+#     'i': 0, 'í': 0,
+#     'o': 0, 'ó': 0,
+#     'u': 0, 'ú': 0
+# }
+
+# # Conta as vogais no texto
+# for letra in texto:
+#     if letra in todas_vogais:
+#         todas_vogais[letra] += 1
+
+# # Soma total de vogais (com e sem acento)
+# total_vogais = sum(todas_vogais.values())
+
+# # Exibe o resultado
+# print(f"\nTotal de vogais (com e sem acento): {total_vogais}")
+# print("Quantidade por vogal:")
+# for vogal, quantidade in todas_vogais.items():
+#     if quantidade > 0:
+#         print(f"{vogal.upper()}: {quantidade}")
+
+# #Ex 10
+# vetor = [2, 4, 7, 2, 3, 3, 1, 0, 2, 6]
+
+# # Dicionário para contar quantas vezes cada número aparece
+# frequencia = {}
+
+# for numero in vetor:
+#     if numero in frequencia:
+#         frequencia[numero] += 1
+#     else:
+#         frequencia[numero] = 1
+
+# # Encontra o número com a maior frequência
+# mais_frequente = None
+# maior_contagem = 0
+
+# for numero, contagem in frequencia.items():
+#     if contagem > maior_contagem:
+#         mais_frequente = numero
+#         maior_contagem = contagem
+
+# # Exibe o resultado
+# print(f"O número que mais se repete é: {mais_frequente} (aparece {maior_contagem} vezes)")
+
+
+
+#Ex 11
+# a. Tamanho dos vetores fornecido pelo usuário
+# n = int(input("Tamanho dos vetores: "))
+
+# # b. Leitura dos elementos do vetor A
+# print("Digite os elementos do vetor A:")
+# vetor_a = []
+# for i in range(n):
+#     valor = int(input(f"A[{i}]: "))
+#     vetor_a.append(valor)
+
+# # Leitura dos elementos do vetor B
+# print("Digite os elementos do vetor B:")
+# vetor_b = []
+# for i in range(n):
+#     valor = int(input(f"B[{i}]: "))
+#     vetor_b.append(valor)
+
+# # c. Soma dos elementos A[i] + B[i] em C[i]
+# vetor_c = []
+# for i in range(n):
+#     soma = vetor_a[i] + vetor_b[i]
+#     vetor_c.append(soma)
+
+# # d. Exibição do vetor C
+# print("Vetor C:", vetor_c)
