@@ -79,10 +79,6 @@
 
 #Ex 7 
 
-#Jeitos legais de fazer:
-
-
-
 # soma = 0 
 # for i in range (51):
 #     num = int(input("nums: "))
@@ -151,9 +147,29 @@
 #         print(f"{vogal.upper()}: {quantidade}")
 
 # #Ex 10
+
+##Sem dicionário
 # vetor = [2, 4, 7, 2, 3, 3, 1, 0, 2, 6]
 
-# # Dicionário para contar quantas vezes cada número aparece
+# qntde = 0
+# maisFrequente = 0
+# numResposta = 0
+
+# for num in vetor:
+#     for prox in vetor:
+#         if prox  == num:
+#             qntde += 1
+        
+#     if qntde > maisFrequente:
+#         maisFrequente > qntde
+#         numResposta = num
+
+#     qntde = 0
+#     print(maisFrequente)
+
+# vetor = [2, 4, 7, 2, 3, 3, 1, 0, 2, 6]
+
+# # com dicionário 
 # frequencia = {}
 
 # for numero in vetor:
