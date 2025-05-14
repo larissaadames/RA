@@ -101,26 +101,26 @@
 
 #Ex 8
 
-# # Lista vazia para armazenar os 10 números
-# valores = []
+# Lista vazia para armazenar os 10 números
+valores = []
 
-# # Leitura dos 10 números
-# for i in range(10):
-#     numero = int(input(f"Digite o {i + 1}º número: "))
-#     valores.append(numero)
+# Leitura dos 10 números
+for i in range(10):
+    numero = int(input(f"Digite o {i + 1}º número: "))
+    valores.append(numero)
 
-# # Bubble Sort para ordenar em ordem crescente
-# n = len(valores)
-# for i in range(n):
-#     for j in range(0, n - i - 1):
-#         if valores[j] > valores[j + 1]:
-#             # Troca os elementos
-#             valores[j], valores[j + 1] = valores[j + 1], valores[j]
+# Bubble Sort para ordenar em ordem crescente
+n = len(valores)
+for i in range(n):
+    for j in range(0, n - i - 1):
+        if valores[j] > valores[j + 1]:
+            # Troca os elementos
+            valores[j], valores[j + 1] = valores[j + 1], valores[j]
 
-# # Imprime a lista ordenada
-# print("Números em ordem crescente:")
-# for numero in valores:
-#     print(numero)
+# Imprime a lista ordenada
+print("Números em ordem crescente:")
+for numero in valores:
+    print(numero)
 
 #Ex 9
 # # Solicita o texto ao usuário
