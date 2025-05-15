@@ -21,13 +21,31 @@
 #     print("empate")
 
 
-lista = []
-for i in range(5):
-    lista.append(int(input("APENAS NUMEROS POSITIVOS: ")))
-    ordenadaLista = sorted(lista)
-    Rlista =list(reversed(lista))
+# lista = []
+# for i in range(5):
+#     lista.append(int(input("APENAS NUMEROS POSITIVOS: ")))
+#     ordenadaLista = sorted(lista)
+#     Rlista =list(reversed(lista))
 
-print(ordenadaLista)
-print(Rlista)
+# print(ordenadaLista)
+# print(Rlista)
 
+# Ex1
 
+# import random 
+# numRandom = []
+# for i in range(5):
+#     numRandom.append(random.randint(1, 100))
+# print(numRandom)
+
+#Ex 2
+
+# nums = []
+# for i in range(3):
+#     nums.append(int(input("NUMS ")))
+# print(nums)
+
+#Ex 3
+
+frase = (input("frase!!!!!!!!!!!!!!!!!! "))
+print(frase.split())
