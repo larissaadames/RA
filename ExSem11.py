@@ -45,7 +45,17 @@
 #     nums.append(int(input("NUMS ")))
 # print(nums)
 
-#Ex 3
+# #Ex 3
 
-frase = (input("frase!!!!!!!!!!!!!!!!!! "))
-print(frase.split())
+# frase = (input("frase!!!!!!!!!!!!!!!!!! "))
+# print(frase.split())
+
+#Ex 4
+
+# import random
+# lista = []
+# for i in range(1,10):   
+#     lista.append(random.randint(1,10))
+#     reversa = list(reversed(lista))
+# print(lista)
+# print(reversa)
