@@ -59,3 +59,20 @@
 #     reversa = list(reversed(lista))
 # print(lista)
 # print(reversa)
+
+#Ex 5
+comidas = ["banana", "goiaba", "pastel", "caldo", "bannananananananananana"]
+maiorPalavra = ""
+menorPalavra = ""
+maior = len(comidas[0])
+menor = len(comidas[0])
+
+for palavra in comidas:
+    if len(palavra) > maior:
+        maior = len(palavra)
+        maiorPalavra = palavra
+    elif len(palavra) < menor:
+        menor = len(palavra)
+        menorPalavra = palavra
+print(maiorPalavra)
+print(menorPalavra)
