@@ -89,7 +89,7 @@
 #             break
 #         except ValueError:
 #             print("Entrada inválida. A média dos trabalhos deve ser um número inteiro.")
-    
+
 #     matriz_alunos.append(info_aluno_atual)
 
 # for aluno_info in matriz_alunos:
