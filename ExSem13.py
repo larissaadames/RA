@@ -18,3 +18,7 @@
 # print(e_palindromo("Ame a ema")) 
 
 #ex3
+def maior_elemento(lista):
+    return max(lista)
+
+print(maior_elemento([1,2,3,4,5,6,89]))
