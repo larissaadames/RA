@@ -97,7 +97,7 @@
 
 #Ex 8
 
-# # Lista vazia para armazenar os 10 números
+# Lista vazia para armazenar os 10 números
 # valores = []
 
 # # Leitura dos 10 números
@@ -148,51 +148,28 @@
 
 # #Ex 10
 
-##Sem dicionário
 # vetor = [2, 4, 7, 2, 3, 3, 1, 0, 2, 6]
 
-# qntde = 0
-# maisFrequente = 0
-# numResposta = 0
+# if not vetor:
+#     print("O vetor está vazio.")
+# else:
+#     numero_mais_frequente = None
+#     maior_contagem = -1
 
-# for num in vetor:
-#     for prox in vetor:
-#         if prox  == num:
-#             qntde += 1
+#     for numero_a_verificar in vetor:
+#         contagem_atual = 0
+#         for elemento in vetor:
+#             if elemento == numero_a_verificar:
+#                 contagem_atual += 1
         
-#     if qntde > maisFrequente:
-#         maisFrequente > qntde
-#         numResposta = num
+#         if contagem_atual > maior_contagem:
+#             maior_contagem = contagem_atual
+#             numero_mais_frequente = numero_a_verificar
 
-#     qntde = 0
-#     print(maisFrequente)
-
-# vetor = [2, 4, 7, 2, 3, 3, 1, 0, 2, 6]
-
-# # com dicionário 
-# frequencia = {}
-
-# for numero in vetor:
-#     if numero in frequencia:
-#         frequencia[numero] += 1
-#     else:
-#         frequencia[numero] = 1
-
-# # Encontra o número com a maior frequência
-# mais_frequente = None
-# maior_contagem = 0
-
-# for numero, contagem in frequencia.items():
-#     if contagem > maior_contagem:
-#         mais_frequente = numero
-#         maior_contagem = contagem
-
-# # Exibe o resultado
-# print(f"O número que mais se repete é: {mais_frequente} (aparece {maior_contagem} vezes)")
-
-
+#     print(f"O número que se repete mais vezes é: {numero_mais_frequente}")
 
 #Ex 11
+
 # a. Tamanho dos vetores fornecido pelo usuário
 # n = int(input("Tamanho dos vetores: "))
 
