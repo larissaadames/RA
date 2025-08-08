@@ -1,3 +1,5 @@
+package Atividade01;
+
 import java.util.Random;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -11,7 +13,7 @@ public class Atividade01 {
 
         System.out.println("Tamanho: " + tamanho);
 
-        ArrayList<Integer> lista = lista(tamanho, gerador);
+        ArrayList<Integer> lista = gerarLista(tamanho, gerador);
 
         System.out.println(lista);
 
@@ -26,7 +28,7 @@ public class Atividade01 {
         }
     }
 
-    public static ArrayList<Integer> lista(int tamanho, Random gerador) {
+    public static ArrayList<Integer> gerarLista(int tamanho, Random gerador) {
         ArrayList<Integer> lista = new ArrayList<>();
         for (int i = 0; i < tamanho; i++) {
             lista.add(gerador.nextInt());
