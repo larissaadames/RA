@@ -15,32 +15,24 @@ public class Carro {
         return modelo;
     }
 
-    public void setModelo(String modelo) {
-        if modelo
-        this.modelo = modelo;
-    }
-
     public int getAno() {
         return ano;
     }
-
-    public void setAno(int ano) {
-        this.ano = ano;
-    }
-
-    public String getMotor() {
-        return motor;
-    }
-
-    public void setMotor(String motor) {
-        this.motor = motor;
-    }
-
     public String getCor() {
         return cor;
     }
-
+    public String getMotor() {
+        return motor;
+    }
+    public void setAno(int ano) {
+        if (ano < 2000);
+        System.out.println("apenas carros depois de 2000");
+        this.ano = ano;
+    }
     public void setCor(String cor) {
+        if (cor != "preto"){
+            System.out.println("apenas carros pretos");
+        }
         this.cor = cor;
     }
 }
