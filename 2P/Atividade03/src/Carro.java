@@ -14,7 +14,6 @@ public class Carro {
     public String getModelo() {
         return modelo;
     }
-
     public int getAno() {
         return ano;
     }
